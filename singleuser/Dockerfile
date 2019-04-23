@@ -12,5 +12,6 @@ RUN python3 -m pip install --no-cache pymongo
 RUN python3 -m pip install --no-cache textblob
 RUN python3 -m textblob.download_corpora lite
 RUN python3 -m pip install --no-cache mysqlclient
-RUN python3 -m pip install --no-cache MySQL-python
+RUN python3 -m pip install --no-cache PyMySQL
+RUN python3 -m pip install --no-cache tornado==4.5.3
 # RUN python3 -m pip install --no-cache python-mysqldb
